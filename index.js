@@ -1,17 +1,4 @@
 
-
-// const url = "https://pokeapi.co/api/v2/pokemon/pikachu";
-
-// fetch(url)
-//   .then((response) => {
-//     if (!response.ok) {
-//       throw new Error("Could not fetch data");
-//     }
-//     return response.json();
-//   })
-//   .then((data) => console.log(data))
-//   .catch((error) => console.log(error));
-
 //  using async / await
 async function fetchData() {
   try {
